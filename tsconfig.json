@@ -23,6 +23,9 @@
     },
     {
       "path": "./core-kernel"
+    },
+    {
+      "path": "./identity"
     }
   ],
   "compilerOptions": {}
