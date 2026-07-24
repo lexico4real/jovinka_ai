@@ -2,6 +2,28 @@
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
-  "references": [],
+  "references": [
+    {
+      "path": "./api-e2e"
+    },
+    {
+      "path": "./api"
+    },
+    {
+      "path": "./core"
+    },
+    {
+      "path": "./common"
+    },
+    {
+      "path": "./infrastructure"
+    },
+    {
+      "path": "./shared"
+    },
+    {
+      "path": "./core-kernel"
+    }
+  ],
   "compilerOptions": {}
 }
